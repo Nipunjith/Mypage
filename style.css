@@ -1,36 +1,72 @@
-.para-left{
-  background-color: antiquewhite;
+#heading{
+  background-color: black;
+  color: green;
+}
+.odd{
+  background-color: black;
+  color: white;
   padding: 30px;
+  margin-right: 250px;
+}
+.even{
+  background-color: green;
+  color: white;
+  padding: 40px;
+  margin-left: 250px;
 }
 
-.para-right{
-  background-color: aquamarine;
-  padding: 30px;
+#heading2{
+  background-color: aqua;
+  color: black;
 }
 
-.head-left{
-  font-style: italic;
-  text-align: right;
-
-}
-.head-right{
-  font-style: italic;
-  text-align: left;
-}
-
-/* .image-right{
-display:block
-
-} */
-.main-head{
-  color: rgb(63, 0, 139);
- 
+.btn-login{
+  background-color: blue;
+  padding: 10px;
+  color: white;
+  font-size: larger;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
 }
 
-body{
-    background-image: url("https://media.istockphoto.com/id/1169630303/photo/blue-textured-background.webp?b=1&s=170667a&w=0&k=20&c=tI2xFhXqXFqMM0IvxSYY3F7LIwv450h2ch3yD-lZ9HU=");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+.btn-login:hover{
+  background-color: rgb(14, 14, 120);
+}
+
+.btn-login:active{
+  background-color: rgb(179, 5, 5);
+  border: 1px solid black;
+}
+
+.btn{
+  width: 400;
+  background-color: aqua;
+}
+.btn:hover{
+  background-color: red;
+}
+
+.box1{
+  position: sticky;
+  top: 30px;
+  height: 200px;
+  width: 60px;
+  background-color: rebeccapurple;
+}
+
+.box2{
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  height: 50px;
+  width: 60px;
+  background-color: rgb(7, 83, 44);
+}
+
+a:hover{
+  color: red;
+  font-size: larger;
 }
