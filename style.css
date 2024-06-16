@@ -1,0 +1,36 @@
+.para-left{
+  background-color: antiquewhite;
+  padding: 30px;
+}
+
+.para-right{
+  background-color: aquamarine;
+  padding: 30px;
+}
+
+.head-left{
+  font-style: italic;
+  text-align: right;
+
+}
+.head-right{
+  font-style: italic;
+  text-align: left;
+}
+
+/* .image-right{
+display:block
+
+} */
+.main-head{
+  color: rgb(63, 0, 139);
+ 
+}
+
+body{
+    background-image: url("https://media.istockphoto.com/id/1169630303/photo/blue-textured-background.webp?b=1&s=170667a&w=0&k=20&c=tI2xFhXqXFqMM0IvxSYY3F7LIwv450h2ch3yD-lZ9HU=");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
